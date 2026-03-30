@@ -8,9 +8,13 @@ ENV/
 env/
 .env
 
-# Project Specific
+# Project Specific — 민감 정보 & 생성 결과물
 auth.json
 output/
+*.log
+
+# macOS
+.DS_Store
 
 # IDEs
 .vscode/
